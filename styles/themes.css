@@ -6,39 +6,39 @@
 */
 
 :root.theme-dark {
-    --background-color: #000;
-    --accent-color: #00CC14; 
-    --main-font-weight: 465;
-    --title-font-weight: 785;
-    --bg-image: repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px), 
-    repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 4px),
-    linear-gradient(#007f0c, #004306);
-    --countur-color: #00CC14;
-    --button-text-color: #00CC14;
+  --background-color: #000;
+  --accent-color: #00cc14;
+  --main-font-weight: 465;
+  --title-font-weight: 785;
+  --bg-image: repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
+  repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 4px),
+  linear-gradient(#007f0c, #004306);
+  --countur-color: #00cc14;
+  --button-text-color: #00cc14;
 }
 
 :root.theme-light {
-    --background-color: #FFF;
-    --bg-image: repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
-    repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
-    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
-    --accent-color: #000; 
-    --main-font-weight: 400;
-    --title-font-weight: 700;
-    --countur-color: #000;
-    --button-text-color: #FFF;
+  --background-color: #fff;
+  --bg-image: repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+  repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+  linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  --accent-color: #000;
+  --main-font-weight: 400;
+  --title-font-weight: 700;
+  --countur-color: #000;
+  --button-text-color: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
-    :root.theme-auto {
-        --background-color: #000;
-        --bg-image: repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px), 
-        repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 4px),
-        linear-gradient(#007f0c, #004306);
-        --accent-color: #00CC14; 
-        --main-font-weight: 465;
-        --title-font-weight: 785;
-        --countur-color: #000;
-        --button-text-color: #00CC14;
-    }
+  :root.theme-auto {
+    --background-color: #000;
+    --bg-image: repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 4px),
+    linear-gradient(#007f0c, #004306);
+    --accent-color: #00cc14;
+    --main-font-weight: 465;
+    --title-font-weight: 785;
+    --countur-color: #00cc14;
+    --button-text-color: #00cc14;
+  }
 }

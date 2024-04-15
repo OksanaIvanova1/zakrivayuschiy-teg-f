@@ -1,17 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --background-color: #FFF;
-    --bg-image: repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
-    repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
-    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
-    --accent-color: #000; 
-    --main-font-size: 18px;
-    --main-font-weight: 400;
-    --title-font-size: 18px;
-    --title-font-weight: 700;
-    --main-font: 'Inter-Variable', 'Arial';
-    --accent-font: 'Press Start 2P', 'Impact';
-    --countur-color: #000;
-    --main-body-color: red;
-    --button-text-color: #FFF;
+  --background-color: #fff;
+  --bg-image: repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+  repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+  linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  --accent-color: #000;
+  --main-font-size: 18px;
+  --main-font-weight: 400;
+  --title-font-size: 18px;
+  --title-font-weight: 700;
+  --main-font: 'Inter-Variable', 'Arial';
+  --accent-font: 'Press Start 2P', 'Copperplate';
+  --countur-color: #000;
+  --main-body-color: red;
+  --button-text-color: #fff;
 }
